@@ -139,11 +139,11 @@ public class Main{
     for(String s : input.split(",")){
       if(c==0){
         x = Integer.parseInt(s);
-        c++;
       }
       if(c==1){
         y = Integer.parseInt(s);
       }
+      c++;
     }
     
     
